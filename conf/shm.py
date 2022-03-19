@@ -17,3 +17,16 @@ category_map = {
     'levels_map': levels_map,
     'levels_stat': levels_stat
 }
+
+# 分页机制（防止一个目录下文件数过多）
+
+raw_paging_org_conf = {
+    1: {'main_key': 'id', 'use_hash': False, 'num_div': 20},
+    2: {'main_key': 'query_id', 'use_hash': True, 'num_div': 10}
+}
+
+sort_paging_org_conf = {
+    1: {'main_key': 'level_1'},
+    2: {'main_key': 'level_2'},
+    3: {'main_key': 'query_id', 'use_hash': True, 'num_div': 10}
+}
