@@ -1,0 +1,11 @@
+current progress: total_cnt=100, err_cnt=50
+current progress: total_cnt=200, err_cnt=150
+current progress: total_cnt=300, err_cnt=188
+current progress: total_cnt=400, err_cnt=245
+current progress: total_cnt=500, err_cnt=306
+current progress: total_cnt=600, err_cnt=369
+current progress: total_cnt=700, err_cnt=469
+current progress: total_cnt=800, err_cnt=569
+current progress: total_cnt=900, err_cnt=669
+current progress: total_cnt=1000, err_cnt=769
+finally: total_cnt=1000, err_cnt=770
