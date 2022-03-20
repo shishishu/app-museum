@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "D:/app-museum/img_fetch_shm.py", line 104, in <module>
-    fetch_resp_batch(query_list, worker_index)
-  File "D:/app-museum/img_fetch_shm.py", line 73, in fetch_resp_batch
-    err_id_list_history = json.load(open(os.path.join(QUERY_INFO['base_dir'], 'errid_3rd_worker_' + str(worker_index) + '.json'), 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: '/mnt/e/app-museum/data\\SHM\\errid_3rd_worker_16.json'
