@@ -18,6 +18,8 @@ logging.basicConfig(level=logging.INFO,
         format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
         datefmt='%a, %d %b %Y %H:%M:%S')
 
+run_in_linux = True
+
 raw_data_dir = os.path.join(archive_dir, base_info['museum'])
 meta_data_dir = os.path.join(data_dir, base_info['museum'])
 os.makedirs(meta_data_dir, exist_ok=True)

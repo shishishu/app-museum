@@ -15,6 +15,8 @@ from lib.ImgFetchSHM import ImgFetchSHM
 from lib.Utils import Utils
 from conf.config import data_dir, archive_dir_linux as archive_dir
 
+run_in_linux = True
+
 BASE_INFO = {
     'museum': 'SHM',
     'level_name': Utils.char2pinyin('书画'),
